@@ -1,0 +1,23 @@
+Patrón Singleton:
+Propósito: Garantizar que solo haya una instancia de una clase y proporcionar un punto de acceso global a ella.
+Caso de uso: Cuando necesitas tener una única instancia de una clase en todo el programa, como en un gestor de conexiones de base de datos.
+
+Patrón Factory:
+Propósito: Proporcionar una interfaz para crear objetos de una clase, pero permitiendo que las subclases decidan qué tipo de objeto crear.
+Caso de uso: Cuando necesitas crear diferentes tipos de objetos según ciertas condiciones, como en un sistema de pago que crea diferentes métodos de pago según el tipo de cuenta del usuario.
+
+Patrón Abstract Factory:
+Propósito: Proporcionar una interfaz para crear familias de objetos relacionados sin especificar sus clases concretas.
+Caso de uso: Cuando necesitas crear diferentes objetos relacionados que pertenecen a una misma familia, como en la creación de componentes de interfaz de usuario (botones, cajas de texto, etc.) para diferentes plataformas (Windows, macOS, Linux).
+
+Patrón Builder:
+Propósito: Permitir la construcción de objetos complejos paso a paso, separando la construcción de la representación final del objeto.
+Caso de uso: Cuando necesitas crear objetos con muchos atributos configurables de forma incremental, como en la construcción de una configuración detallada para una aplicación.
+
+Patrón Observer:
+Propósito: Definir una dependencia uno-a-muchos entre objetos, de modo que cuando un objeto cambia su estado, todos los objetos dependientes son notificados y actualizados automáticamente.
+Caso de uso: Cuando tienes objetos que necesitan mantenerse actualizados con respecto a los cambios en otro objeto, como en un sistema de notificaciones en tiempo real.
+
+Patrón Decorator:
+Propósito: Permite agregar funcionalidades adicionales a un objeto dinámicamente, envolviéndolo en un objeto decorador especial.
+Caso de uso: Cuando deseas agregar comportamiento o características adicionales a un objeto existente sin modificar su estructura, como en la adición de funciones de encriptación a un flujo de datos.
